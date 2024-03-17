@@ -1,0 +1,166 @@
+/*write a program that takes the radius as a input and calculaets area of circle*/
+#include<iostream>
+using namespace std;
+main(){
+	int r;
+	float area;
+	cout<<"enter radius of circle.";
+	cin>>r;
+	area=3.14*r*r;
+	cout<<"Area of circle is "<<area;
+}
+
+
+
+/*/*write a program that takes the radius as a input and calculaets its circumfarance*/
+#include<iostream>
+using namespace std;
+main(){
+	int r;
+	float circumferance;
+	cout<<"enter radius of circle.";
+	cin>>r;
+	circumferance=2*3.14*r;
+	cout<<"circumferance of circle is "<<circumferance;
+}
+
+
+
+/*write a program that takes length and weidth of rectangle as input and calculate its area*/
+#include<iostream>
+using namespace std;
+main(){
+	int length,weidth;
+	float area;
+	cout<<"enter length and weidth.";
+	cin>>length>>weidth;
+	area=length*weidth;
+	cout<<"area of rectangle is "<<area;
+}
+
+
+/*write a program that takes the radius of sphere as input and calculate is volume*/
+#include<iostream>
+using namespace std;
+main(){
+	int r;
+	float volume;
+	cout<<"enter radius of circle.";
+	cin>>r;
+	volume=4/3*3.14*r*r*r;
+	cout<<"volume of sphere is "<<volume;
+}
+
+
+/*write a program that takes the radius of sphere as input and calculate its surface area*/
+#include<iostream>
+using namespace std;
+main(){
+	int r;
+	float sa;
+	cout<<"enter radius of circle.";
+	cin>>r;
+	sa=4*3.14*r*r;
+	cout<<"Surface area of sphere is "<<sa;
+}
+
+
+
+/*write a program that takes side length of square as input and calculate its area*/
+#include<iostream>
+using namespace std;
+main(){
+	int side;
+	int area;
+	cout<<"enter side of square.";
+	cin>>side;
+	area=side*side;
+	cout<<"Area of square is "<<area;
+} 
+
+
+/*write a program that takes base and hight of right angle tringle and calculate its area*/
+#include<iostream>
+using namespace std;
+main(){
+	int base,hight;
+	float area;
+	cout<<"enter base and hight.";
+	cin>>base>>hight;
+	area=0.5*base*hight;
+	cout<<"Area of Tringle is "<<area;
+}
+
+
+
+/*write a program that takes side length of equilateral tringle as input and calculate its area*/
+#include<iostream>
+#include<math.h>
+using namespace std;
+main(){
+	int side;
+	float area;
+	cout<<"enter side of equilateral tringle.";
+	cin>>side;
+	area=(sqrt(3)/4)*side*side;
+	cout<<"area of equilateral traingle is "<<area;
+}
+
+
+/*write a program that takes length and weidth of rectangle as input and calculate its perimeter*/
+#include<iostream>
+using namespace std;
+main(){
+	int length,weidth;
+	float perimeter;
+	cout<<"enter length and weidth.";
+	cin>>length>>weidth;
+	perimeter=2*length+2*weidth;
+	cout<<"perimeter of rectangle is "<<perimeter;
+}
+
+
+/*write a program that takes base and hight of a tringle as input and calculate its area*/
+#include<iostream>
+using namespace std;
+main(){
+	int base,height;
+	int area,x;
+	cout<<"enter base and height.";
+	cin>>base>>height;
+	
+	x=0.5*base*height;
+	cout<<x;
+	
+	cout<<"Area of tringle is "<<x;
+	
+}
+
+
+/*write a program that takes principal amount interast rate and time period as input and calculate simple interast*/
+#include<iostream>
+using namespace std;
+main(){
+	int principal,time;
+	float r,si;
+	cout<<"enter principal time period and rate of interast";
+	cin>>principal>>time>>r;
+	si=principal*time*r;
+	cout<<"simple interest is "<<si;
+}
+
+
+
+/*write a program that takes principal amount interast rate and time period  and compounding frequency as input
+ and calculate compound interast*/
+ #include<iostream>
+ #include<math.h>
+using namespace std;
+main(){
+	int principle,time;
+	float rate,ci;
+	cout<<"enter principal time period and rate of interast";
+	cin>>principle>>time>>rate;
+	ci=principle* (pow((1 + rate / 100), time));
+	cout<<"compound interest is "<<ci;
+}
